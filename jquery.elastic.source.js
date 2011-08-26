@@ -133,7 +133,7 @@
 				});
 				
 				// Update width of twin if browser or textarea is resized (solution for textareas with widths in percent)
-				$(window).bind('resize', setTwinWidth);
+				jQuery(window).bind('resize', setTwinWidth);
 				$textarea.bind('resize', setTwinWidth);
 				$textarea.bind('update', update);
 				
